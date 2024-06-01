@@ -46,7 +46,7 @@ git clone https://github.com/AlexeyBashmakov/Small_calculator_http.git<br>
 Скрипт `expressions.bat` содержит запрос к серверу о статусе выполнения всех задач переданных серверу, также с помощью утилиты `curl`.
 ### ОС Linux
 Для того чтобы проект можно было запустить на исполнение необходимо в папке `Small_calculator_http/calculator/cmd/calculator`
-запустить скрипт `build.sht` при этом go докачает пакет `github.com/go-chi/chi/v5` и соберёт исполняемый файл `main`<br>
+запустить скрипт `build.sh` при этом go докачает пакет `github.com/go-chi/chi/v5` и соберёт исполняемый файл `main`<br>
 Для запуска проекта и работы с ним потребуются две консоли.<br> 
 В одной консоли, в директории `Small_calculator_http/calculator/cmd/calculator`, запускаем скрипт `run.sh`. 
 (В этом скрипте устанавливаются переменные окружения необходимые для работы программы.) 
