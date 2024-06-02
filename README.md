@@ -97,7 +97,7 @@ git clone https://github.com/AlexeyBashmakov/Small_calculator_http.git<br>
 Small_calculator_http/<br>
 |<br>
 -calculator/<br>
-|    |<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|<br>
 |    -cmd/<br>
 |    |  |<br>
 |    |  -calculator/<br>
