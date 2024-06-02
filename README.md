@@ -99,61 +99,61 @@ Small_calculator_http/<br>
 -calculator/<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;|<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;-cmd/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  -calculator/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -build.bat<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -build.sh<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -calculate.bat<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -calculate.sh<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -expression_id.bat<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -expression_id.sh<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -expressions.bat<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -expressions.sh<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -main<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -main.go<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -main_test.go<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -run.bat<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -run.sh<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -task_get.bat<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|       -task_result.bat<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-calculator/<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-build.bat<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-build.sh<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-calculate.bat<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-calculate.sh<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-expression_id.bat<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-expression_id.sh<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-expressions.bat<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-expressions.sh<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-main<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-main.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-main_test.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-run.bat<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-run.sh<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-task_get.bat<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-task_result.bat<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;-http/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  -agent/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  -agent.go<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  -server/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|     |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|     -handler/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|     |  |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|     |  -handler.go<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|     -server.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-agent/<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;-agent.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-server/<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-handler/<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-handler.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-server.go<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;-internal/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  -application/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  -application.go<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  -constants/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  -environ_vars.go<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  -operations.go<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  -environ_vars/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  -environ_vars.go<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  -service/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|     |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|     -service.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-application/<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;-application.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-constants/<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;-environ_vars.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;-operations.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-environ_vars/<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;-environ_vars.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-service/<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-service.go<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;-pkg/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  -my_queue/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  -my_queue.go<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  -my_stack/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  |  -my_stack.go<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|  -rpn/<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|     |<br>
-|&nbsp;&nbsp;&nbsp;&nbsp;|     -rpn.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-my_queue/<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;-my_queue.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-my_stack/<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;|&nbsp;&nbsp;-my_stack.go<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;-rpn/<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|<br>
+|&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;-rpn.go<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;-go.mod<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;-go.sum<br>
 -LICENSE<br>
