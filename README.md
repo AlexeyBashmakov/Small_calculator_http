@@ -93,6 +93,71 @@ git clone https://github.com/AlexeyBashmakov/Small_calculator_http.git<br>
 Здесь после двоеточия в конце строки адреса указывается идентификатор задачи (в данном случае 3), статус которой нам интересен.
 
 ## Структура проекта
+Структура каталогов:
+Small_calculator_http/
+|
+-calculator/
+|    |
+|    -cmd/
+|    |  |
+|    |  -calculator/
+|    |       |
+|    |       -build.bat
+|    |       -build.sh
+|    |       -calculate.bat
+|    |       -calculate.sh
+|    |       -expression_id.bat
+|    |       -expression_id.sh
+|    |       -expressions.bat
+|    |       -expressions.sh
+|    |       -main
+|    |       -main.go
+|    |       -main_test.go
+|    |       -run.bat
+|    |       -run.sh
+|    |       -task_get.bat
+|    |       -task_result.bat
+|    -http/
+|    |  |
+|    |  -agent/
+|    |  |  |
+|    |  |  -agent.go
+|    |  -server/
+|    |     |
+|    |     -handler/
+|    |     |  |
+|    |     |  -handler.go
+|    |     -server.go
+|    -internal/
+|    |  |
+|    |  -application/
+|    |  |  |
+|    |  |  -application.go
+|    |  -constants/
+|    |  |  |
+|    |  |  -environ_vars.go
+|    |  |  -operations.go
+|    |  -environ_vars/
+|    |  |  |
+|    |  |  -environ_vars.go
+|    |  -service/
+|    |     |
+|    |     -service.go
+|    -pkg/
+|    |  |
+|    |  -my_queue/
+|    |  |  |
+|    |  |  -my_queue.go
+|    |  -my_stack/
+|    |  |  |
+|    |  |  -my_stack.go
+|    |  -rpn/
+|    |     |
+|    |     -rpn.go
+|    -go.mod
+|    -go.sum
+-LICENSE
+-README.md
 
 ## Back-end часть
 Состоит из 2 элементов:
