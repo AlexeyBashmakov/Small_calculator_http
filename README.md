@@ -165,7 +165,14 @@ Small_calculator_http/<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;-go.mod<br>
 |&nbsp;&nbsp;&nbsp;&nbsp;-go.sum<br>
 -LICENSE<br>
--README.md<br>
+-README.md
+
+Пакет `calculator/cmd/calculator/main.go` является точкой входа в приложение. Здесь происходит вызов функции для проверки установки переменных среды<br>
+`if !environ_vars.CheckEnvironmentVariables()`<br>
+и если они не установлены, то происходит их установка значениями по-умолчанию<br>
+`if environ_vars.SetEnvironmentVariables() != nil`<br>
+если и это не удаётся, то приложение завершается с кодом 2. В случае успеха переходим к запуску сервера и агента<br>
+`application.Run(ctx)`
 
 ## Back-end часть
 Состоит из 2 элементов:
