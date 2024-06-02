@@ -93,71 +93,71 @@ git clone https://github.com/AlexeyBashmakov/Small_calculator_http.git<br>
 Здесь после двоеточия в конце строки адреса указывается идентификатор задачи (в данном случае 3), статус которой нам интересен.
 
 ## Структура проекта
-Структура каталогов:
-Small_calculator_http/
-|
--calculator/
-|    |
-|    -cmd/
-|    |  |
-|    |  -calculator/
-|    |       |
-|    |       -build.bat
-|    |       -build.sh
-|    |       -calculate.bat
-|    |       -calculate.sh
-|    |       -expression_id.bat
-|    |       -expression_id.sh
-|    |       -expressions.bat
-|    |       -expressions.sh
-|    |       -main
-|    |       -main.go
-|    |       -main_test.go
-|    |       -run.bat
-|    |       -run.sh
-|    |       -task_get.bat
-|    |       -task_result.bat
-|    -http/
-|    |  |
-|    |  -agent/
-|    |  |  |
-|    |  |  -agent.go
-|    |  -server/
-|    |     |
-|    |     -handler/
-|    |     |  |
-|    |     |  -handler.go
-|    |     -server.go
-|    -internal/
-|    |  |
-|    |  -application/
-|    |  |  |
-|    |  |  -application.go
-|    |  -constants/
-|    |  |  |
-|    |  |  -environ_vars.go
-|    |  |  -operations.go
-|    |  -environ_vars/
-|    |  |  |
-|    |  |  -environ_vars.go
-|    |  -service/
-|    |     |
-|    |     -service.go
-|    -pkg/
-|    |  |
-|    |  -my_queue/
-|    |  |  |
-|    |  |  -my_queue.go
-|    |  -my_stack/
-|    |  |  |
-|    |  |  -my_stack.go
-|    |  -rpn/
-|    |     |
-|    |     -rpn.go
-|    -go.mod
-|    -go.sum
--LICENSE
--README.md
+Структура каталогов:<br>
+Small_calculator_http/<br>
+|<br>
+-calculator/<br>
+|    |<br>
+|    -cmd/<br>
+|    |  |<br>
+|    |  -calculator/<br>
+|    |       |<br>
+|    |       -build.bat<br>
+|    |       -build.sh<br>
+|    |       -calculate.bat<br>
+|    |       -calculate.sh<br>
+|    |       -expression_id.bat<br>
+|    |       -expression_id.sh<br>
+|    |       -expressions.bat<br>
+|    |       -expressions.sh<br>
+|    |       -main<br>
+|    |       -main.go<br>
+|    |       -main_test.go<br>
+|    |       -run.bat<br>
+|    |       -run.sh<br>
+|    |       -task_get.bat<br>
+|    |       -task_result.bat<br>
+|    -http/<br>
+|    |  |<br>
+|    |  -agent/<br>
+|    |  |  |<br>
+|    |  |  -agent.go<br>
+|    |  -server/<br>
+|    |     |<br>
+|    |     -handler/<br>
+|    |     |  |<br>
+|    |     |  -handler.go<br>
+|    |     -server.go<br>
+|    -internal/<br>
+|    |  |<br>
+|    |  -application/<br>
+|    |  |  |<br>
+|    |  |  -application.go<br>
+|    |  -constants/<br>
+|    |  |  |<br>
+|    |  |  -environ_vars.go<br>
+|    |  |  -operations.go<br>
+|    |  -environ_vars/<br>
+|    |  |  |<br>
+|    |  |  -environ_vars.go<br>
+|    |  -service/<br>
+|    |     |<br>
+|    |     -service.go<br>
+|    -pkg/<br>
+|    |  |<br>
+|    |  -my_queue/<br>
+|    |  |  |<br>
+|    |  |  -my_queue.go<br>
+|    |  -my_stack/<br>
+|    |  |  |<br>
+|    |  |  -my_stack.go<br>
+|    |  -rpn/<br>
+|    |     |<br>
+|    |     -rpn.go<br>
+|    -go.mod<br>
+|    -go.sum<br>
+-LICENSE<br>
+-README.md<br>
 
 ## Back-end часть
 Состоит из 2 элементов:
